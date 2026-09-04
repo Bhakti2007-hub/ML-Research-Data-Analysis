@@ -182,6 +182,6 @@ Sanjivani College of Engineering, Kopargaon
 
 ---
 
-## 📄 License
+## OUTPUT
 
-This project is developed for **educational, research, and learning purposes**.
+<img width="1535" height="691" alt="image" src="https://github.com/user-attachments/assets/61be55db-0953-4fb7-97d7-fedaa6e946aa" />
