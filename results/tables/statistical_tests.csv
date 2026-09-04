@@ -1,0 +1,17 @@
+Test Type,Feature,Comparison,Statistic (Chi2 / t / F),p-value,Degrees of Freedom,Statistically Significant (alpha=0.05),Interpretation
+Chi-Square Independence,checking_status,checking_status vs. Credit Risk Class,123.7209,1.2189e-26,3.0,Yes,Significant association (p=1.22e-26)
+Chi-Square Independence,credit_history,credit_history vs. Credit Risk Class,61.6914,1.2792e-12,4.0,Yes,Significant association (p=1.28e-12)
+Chi-Square Independence,savings_status,savings_status vs. Credit Risk Class,36.0989,2.7612e-07,4.0,Yes,Significant association (p=2.76e-07)
+Chi-Square Independence,purpose,purpose vs. Credit Risk Class,33.3564,0.00011575,9.0,Yes,Significant association (p=1.16e-04)
+Chi-Square Independence,housing,housing vs. Credit Risk Class,18.1998,0.00011167,2.0,Yes,Significant association (p=1.12e-04)
+Chi-Square Independence,property_magnitude,property_magnitude vs. Credit Risk Class,23.7196,2.8584e-05,3.0,Yes,Significant association (p=2.86e-05)
+Chi-Square Independence,employment,employment vs. Credit Risk Class,18.3683,0.0010455,4.0,Yes,Significant association (p=1.05e-03)
+Welch's Two-Sample t-test,duration,Good vs. Bad Borrowers Mean,-6.4696,2.4041e-10,998.0,Yes,"Mean difference is significant (t=-6.47, p=2.40e-10)"
+Mann-Whitney U Test,duration,Good vs. Bad Distribution Rank,77995.5,7.9817e-11,,Yes,Distribution ranks differ significantly (p=7.98e-11)
+Welch's Two-Sample t-test,credit_amount,Good vs. Bad Borrowers Mean,-4.2642,2.4777e-05,998.0,Yes,"Mean difference is significant (t=-4.26, p=2.48e-05)"
+Mann-Whitney U Test,credit_amount,Good vs. Bad Distribution Rank,93480.0,0.0059176,,Yes,Distribution ranks differ significantly (p=5.92e-03)
+Welch's Two-Sample t-test,age,Good vs. Bad Borrowers Mean,2.9072,0.0037885,998.0,Yes,"Mean difference is significant (t=2.91, p=3.79e-03)"
+Mann-Whitney U Test,age,Good vs. Bad Distribution Rank,119833.0,0.00039128,,Yes,Distribution ranks differ significantly (p=3.91e-04)
+Welch's Two-Sample t-test,installment_commitment,Good vs. Bad Borrowers Mean,-2.3265,0.020335,998.0,Yes,"Mean difference is significant (t=-2.33, p=2.03e-02)"
+Mann-Whitney U Test,installment_commitment,Good vs. Bad Distribution Rank,95889.5,0.01986,,Yes,Distribution ranks differ significantly (p=1.99e-02)
+One-Way ANOVA,credit_amount,Credit Amount across Loan Purposes,17.552,3.557e-27,9.0,Yes,Mean credit amounts differ significantly across purpose categories
